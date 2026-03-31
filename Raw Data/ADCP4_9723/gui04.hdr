@@ -1,0 +1,221 @@
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\Campo_guilherme_28112023\gui03_9723.prf]
+---------------------------------------------------------------------
+Number of measurements                208
+Number of checksum errors             0
+Time of first measurement             28/11/2023 06:00:00
+Time of last measurement              29/11/2023 16:30:00
+
+User setup
+---------------------------------------------------------------------
+Profile interval                      600 sec
+Number of cells                       30
+Cell size                             30 cm
+Average interval                      120 sec
+Measurement load                      88 %
+Transmit pulse length                 0.30 m
+Blanking distance                     0.40 m
+Compass update rate                   600 sec
+Distance measurements                 DISABLED
+Wave measurements                     DISABLED
+Wave - Powerlevel                     LOW
+Wave - Interval                       3600 sec
+Wave - Number of samples              1024
+Wave - Sampling rate                  1 Hz
+Wave - Cell size                      2.00 m
+Analog input 1                        NONE
+Analog input 2                        NONE
+Power output                          DISABLED
+Powerlevel                            HIGH
+Coordinate system                     ENU
+Sound speed                           MEASURED
+Salinity                              35.0 ppt
+Distance between pings                31.01 m
+Number of beams                       3
+Number of pings per burst             7
+Software version                      2.00.02
+Deployment name                       gui
+Wrap mode                             OFF
+Deployment time                       28/11/2023 06:00:00
+Comments                              
+System1                               28
+System2                               34
+System3                               7
+System4                               1355
+System5                               512
+System9                               16384
+System10                              96
+System11                              0
+System12                              0
+System13                              0
+System14                              600
+System16                              30
+System17                              1772
+System22                              3600
+System28                              1
+System29                              1
+System30                              7
+System31                              15618 15646 15673 15699
+System32                              0
+System33                              0
+System34                              167
+System35                              110
+System36                              10709
+System38                              0
+System39                              0
+System40                              10
+System41                              0
+System42                              0
+System43                              0
+System44                              0
+System45                              6
+Start command                         Recorder deployment
+CRC download                          ON
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         AQD 9723
+Hardware revision                     4 (E)
+Recorder size                         41 MByte
+Firmware version                      3.38
+Velocity range                        NORMAL
+Power output                          12V
+Sync signal data out delay            0 sec
+Sync signal power down delay          0 sec
+
+Head configuration
+---------------------------------------------------------------------
+Pressure sensor                       YES
+Compass                               YES
+Tilt sensor                           YES
+System 1                              1
+Head frequency                        1000 kHz
+Serial number                         ASP 5329
+Transformation matrix                 1.5774 -0.7891 -0.7891
+                                      0.0000 -1.3662 1.3662
+                                      0.3677 0.3677 0.3677
+Magnetometer calibration matrix       0.9313 0.0082 -0.0122
+                                      0.0082 0.9589 0.0019
+                                      -0.0115 0.0245 1.0000
+Compass hard iron calibration         11 14 -13
+Pressure sensor calibration           0 0 16900 8731
+Number of beams                       3
+System5                               25 25 25 0
+System7                               -18598 -737 11751 165
+                                      -17927 152 11750 120
+System8                               1 0 0
+                                      0 -1 0
+                                      0 0 -1
+System9                               1 0 0
+                                      0 1 0
+                                      0 0 1
+System10                              0 1 -1 0
+System11                              0 1 1 0
+System13                              1481 259 7128 10855
+System14                              -19533 -66 11945 -90
+                                      -19816 -421 11970 -126
+System15                              30516 268 -399 268
+                                      31421 63 -376 803
+                                      32767 11 14 -13
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              4550
+System18                              3600
+System19                              3600
+System20                              10000
+
+
+Current profile cell center distance from head (m)
+---------------------------------------------------------------------
+  1    0.70
+  2    1.00
+  3    1.30
+  4    1.60
+  5    1.90
+  6    2.20
+  7    2.50
+  8    2.80
+  9    3.10
+ 10    3.40
+ 11    3.70
+ 12    4.00
+ 13    4.30
+ 14    4.60
+ 15    4.90
+ 16    5.20
+ 17    5.50
+ 18    5.80
+ 19    6.10
+ 20    6.40
+ 21    6.70
+ 22    7.00
+ 23    7.30
+ 24    7.60
+ 25    7.90
+ 26    8.20
+ 27    8.50
+ 28    8.80
+ 29    9.10
+ 30    9.40
+
+Data file format
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.v1]
+ 1   Velocity Cell 1 (Beam1|X|East)   (m/s)
+ 2   Velocity Cell 2 (Beam1|X|East)   (m/s)
+     .
+     .
+ n   Velocity Cell n (Beam1|X|East)   (m/s)
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.v2]
+ 1   Velocity Cell 1 (Beam2|Y|North)  (m/s)
+ 2   Velocity Cell 2 (Beam2|Y|North)  (m/s)
+     .
+     .
+ n   Velocity Cell n (Beam2|Y|North)  (m/s)
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.v3]
+ 1   Velocity Cell 1 (Beam3|Z|Up)     (m/s)
+ 2   Velocity Cell 2 (Beam3|Z|Up)     (m/s)
+     .
+     .
+ n   Velocity Cell n (Beam3|Z|Up)     (m/s)
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.a1]
+ 1   Amplitude Cell 1 (Beam1)         (counts)
+ 2   Amplitude Cell 2 (Beam1)         (counts)
+     .
+     .
+ n   Amplitude Cell n (Beam1)         (counts)
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.a2]
+ 1   Amplitude Cell 1 (Beam2)         (counts)
+ 2   Amplitude Cell 2 (Beam2)         (counts)
+     .
+     .
+ n   Amplitude Cell n (Beam2)         (counts)
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.a3]
+ 1   Amplitude Cell 1 (Beam3)         (counts)
+ 2   Amplitude Cell 2 (Beam3)         (counts)
+     .
+     .
+ n   Amplitude Cell n (Beam3)         (counts)
+---------------------------------------------------------------------
+[D:\Dropbox\Doutorado\Jupyter\Campo_2023\dados_brutos\ADCP3\gui03_9723.sen]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Error code
+ 8   Status code
+ 9   Battery voltage                  (V)
+10   Soundspeed                       (m/s)
+11   Heading                          (degrees)
+12   Pitch                            (degrees)
+13   Roll                             (degrees)
+14   Pressure                         (dbar)
+15   Temperature                      (degrees C)
+16   Analog input 1
+17   Analog input 2
